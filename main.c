@@ -49,8 +49,28 @@ void removeContent(){
   puts("[1] Every occurance");
   puts("[2] First from the right");
   puts("[3] First from the left");
+  puts("[4] Every whitespace (faster than Every occurance)");
 
   option(&opt);
+
+  switch(opt){
+
+    case 1:
+          printf("Selected Every occurance \n");
+          break;
+    case 2:
+          printf("Selected First from the right \n");
+          break;
+    case 3:
+          printf("Selected First from the left");
+          break;
+    case 4:
+          printf("Selected Every whitespace");
+          break;
+
+    default:option(&opt);
+
+  }
 
 }
 
