@@ -1,3 +1,7 @@
+
+# This repo now serves as a permanent reminder of how much I didn't know back then. FileRenamerDeux is the project I hope to finish, this is just an example of horrible code :D
+
+
 # FileRenamer
 File renamer made in C, pretty much purpose-built for pirating music 
 
